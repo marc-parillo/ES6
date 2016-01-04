@@ -1,0 +1,29 @@
+{
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "classes": 1,
+    "modules": 1,
+    "jsx": 1
+  },
+  "rules": {
+    "no-unused-vars": 1,
+    "no-alert": 0,
+    "no-bitwise": 0,
+    "camelcase": 1,
+    "curly": 1,
+    "eqeqeq": 0,
+    "no-console": 1,
+    "no-undef": 1,
+    "no-eq-null": 0,
+    "guard-for-in": 1,
+    "no-empty": 1
+  },
+  "globals": {
+    "$": true,
+    "_": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
